@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SuiteDemo">
-  <test name="TestDemo">
+<suite name="Demo Selenium Grid" parallel="false">
+  <test name="Test Grid">
+  <parameter name="GridNode" value="http://localhost:5555/wd/hub"></parameter>
     <classes>
-      <class name="Training.Selenium.DemoPriority"/>
+      <class name="Training.Selenium.DemoSeleniumGrid"/>
     </classes>
-  </test> <!-- TestDemo -->
-</suite> <!-- SuiteDemo -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
